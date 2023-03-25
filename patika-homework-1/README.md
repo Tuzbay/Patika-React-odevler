@@ -1,3 +1,10 @@
+### Konsol Görüntüsü
+![image](https://user-images.githubusercontent.com/77413300/227729543-fccb4cde-b008-46c9-9c04-2b4d83d9a788.png)
+
+### App Görüntüsü
+![image](https://user-images.githubusercontent.com/77413300/227729591-743725e9-79b1-4144-aed1-f3d5d84c77cc.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
