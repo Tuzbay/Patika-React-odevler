@@ -1,3 +1,5 @@
+#### getData'yı farklı bir dosyada oluşturup import etmek yerine app.js içinde oluşturdum. Bu şekilde daha temiz bir kod elde ettiğimi düşünüyorum.
+
 ### Konsol Görüntüsü
 ![image](https://user-images.githubusercontent.com/77413300/227729543-fccb4cde-b008-46c9-9c04-2b4d83d9a788.png)
 
