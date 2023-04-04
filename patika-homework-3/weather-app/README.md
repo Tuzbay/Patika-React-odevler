@@ -1,3 +1,10 @@
+## Projeye ait görüntüler aşağıdadır. 
+
+Projenin canlı linki: http://thundering-print.surge.sh/
+
+![light](https://user-images.githubusercontent.com/77413300/229786294-9e810c75-2794-47de-a8d1-4efd018e6113.png)
+![dark](https://user-images.githubusercontent.com/77413300/229786322-88483762-b02c-4d54-a92d-df1ba3cd1149.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
