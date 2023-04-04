@@ -1,3 +1,5 @@
+// ! Container Start ! \\
+
 .container {
   background-image: url("./assets/light3.avif");
   background-position: center;
@@ -80,6 +82,10 @@
   }
 }
 
+// ! Container Finish ! \\
+
+// ! Dark Start ! \\
+
 .dark {
   background-image: url("./assets/dark2.avif");
   background-position: center;
@@ -96,6 +102,10 @@
     border: 1px solid #f3f3f3;
   }
 }
+
+// ! Dark Finish ! \\
+
+// ! Current Weather Start ! \\
 
 .currentWeather {
   width: 50%;
@@ -157,6 +167,10 @@
   }
 }
 
+// ! Current Weather Finish ! \\
+
+// ! Weather List Start ! \\
+
 .weather-list {
   display: flex;
   align-items: center;
@@ -189,6 +203,10 @@
     }
   }
 }
+
+// ! Weather List Finish ! \\
+
+// ! Main Start ! \\
 
 .main {
   width: 160px;
@@ -243,3 +261,5 @@
     }
   }
 }
+
+// ! Main Finish ! \\

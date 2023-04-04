@@ -2,6 +2,9 @@ import React from "react";
 import "../App.scss";
 
 function SingleWeather({ item }) {
+  // * Aşağıdaki tarih işlemlerinde tarihi gün ay yıl şeklinde alıyorum. İstediğim şekile getirdikten sonra
+  // * Aşağıda slice ile sadece günü yazdırıyorum.
+
   const event = new Date(
     Date.UTC(
       item.dt_txt.slice(0, -15),

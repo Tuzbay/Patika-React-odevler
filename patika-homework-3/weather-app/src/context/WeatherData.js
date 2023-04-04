@@ -8,6 +8,7 @@ export const WeatherProvide = ({ children }) => {
   const [forecastInfo, setForecastInfo] = useState([]);
   const [city, setCity] = useState("Istanbul");
 
+  // * Anlık hava durumu verisini aşağıdaki hook ile çekiyorum.
   useEffect(() => {
     async function getCurrentWeather() {
       try {
@@ -22,6 +23,7 @@ export const WeatherProvide = ({ children }) => {
     getCurrentWeather();
   }, [city]);
 
+  // * Günlük hava durumu verisini aşağıdaki hook ile çekiyorum.
   useEffect(() => {
     async function getForecastData() {
       try {
@@ -41,6 +43,7 @@ export const WeatherProvide = ({ children }) => {
     getForecastData();
   }, [city]);
 
+  // * Burada diğer componentlerde kullanacağım değişkenleri tutuyorum.
   const values = {
     currentInfo,
     setCurrentInfo,

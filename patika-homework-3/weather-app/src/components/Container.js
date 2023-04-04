@@ -7,6 +7,8 @@ import ThemeContext from "../context/ThemeContext";
 import WeatherData from "../context/WeatherData";
 
 function Container() {
+  // * Tüm componentleri container altında topladım. App.js'de ThemeContext ve WeatherData ile çevrelemek için bu şekilde yaptım.
+
   const { theme } = useContext(ThemeContext);
   const { setCity } = useContext(WeatherData);
   const [input, setInput] = useState("");

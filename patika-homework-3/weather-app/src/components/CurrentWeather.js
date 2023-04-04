@@ -5,6 +5,8 @@ import WeatherData from "../context/WeatherData";
 
 function CurrentWeather() {
   const { currentInfo } = useContext(WeatherData);
+
+  // * WeatherData Contextten aldığım verileri burada kullanıyorum. Anlık hava durumunu gösterdiğim kısımın kodları aşağıdadır.
   return (
     <div className="currentWeather">
       <div className="left">

@@ -23,11 +23,12 @@ function Header() {
   return (
     <div className="header">
       <ul className="recommend-list">
+        {/* Öneri olarak gösterdiğim başkanetleri cities diye tanımladığım Arrayden eçkiyorum. */}
         {cities.map((city) => {
           return <li onClick={() => setCity(city)}>{city}</li>;
         })}
       </ul>
-
+      {/* Theme değişimi bu icon aracılığı ile yapılıyor. */}
       {theme === "light" ? (
         <LightModeIcon
           className="icon light"

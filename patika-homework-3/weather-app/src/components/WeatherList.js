@@ -11,6 +11,8 @@ function WeatherList() {
       <h2 style={{ textAlign: "center", margin: "0px" }}>Forecast</h2>
 
       <div className="wrapper">
+        {/* Aşağıdaki satırda SingleWeather componentini çekiyorum.  */}
+
         {forecastInfo.map((item, index) => {
           return <SingleWeather key={index} item={item} />;
         })}

@@ -6,6 +6,7 @@ import Container from "./components/Container";
 
 function App() {
   return (
+    // * Aşağıda 2 Context ile Ana yapıyı sarmaladım.
     <ThemeProvider>
       <WeatherProvide>
         <Container />
