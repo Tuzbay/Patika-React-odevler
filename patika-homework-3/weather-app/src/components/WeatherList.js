@@ -5,7 +5,6 @@ import WeatherData from "../context/WeatherData";
 
 function WeatherList() {
   const { forecastInfo } = useContext(WeatherData);
-  console.log(window.innerWidth);
   return (
     <div className="weather-list">
       <h2 style={{ textAlign: "center", margin: "0px" }}>Forecast</h2>
