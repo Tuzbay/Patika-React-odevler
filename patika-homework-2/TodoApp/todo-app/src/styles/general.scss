@@ -1,0 +1,136 @@
+* {
+  background-color: rgb(165, 235, 235);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+
+  .footer__bottom {
+    margin-top: 10px;
+  }
+}
+
+.todo {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 30px;
+
+  .new-todo {
+    height: 70px;
+    margin-top: 10px;
+    width: 80vh;
+    font-size: 26px;
+    padding: 0 30px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    outline: none;
+
+    &::placeholder {
+      padding: 0 10px;
+    }
+  }
+}
+
+.todolist {
+  padding: 0;
+  .todo__item {
+    height: 60px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 80vh;
+    margin: auto auto;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease all;
+
+    .todo__item-display {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 20px 0 20px;
+      width: 100%;
+
+      .buttons button {
+        margin-left: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .completed {
+    text-decoration: line-through;
+  }
+}
+
+.todo__footer {
+  border-top: 1px solid black;
+  margin-top: 30px;
+  font-size: 20px;
+
+  div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filters {
+    display: flex;
+    gap: 15px;
+
+    a {
+      padding: 5px 10px;
+      transition: 0.2s ease all;
+
+      &:hover {
+        background-color: rgb(121, 204, 204);
+      }
+    }
+  }
+
+  .clear__completed {
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+
+    &:hover {
+      background-color: rgb(121, 204, 204);
+    }
+  }
+
+  .selected {
+    border: 1px solid gray;
+  }
+}
+
+.checkbox {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
