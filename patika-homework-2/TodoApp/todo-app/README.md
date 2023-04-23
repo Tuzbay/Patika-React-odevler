@@ -1,3 +1,7 @@
+### The logic part of this project is working. But the design part is not yet completed. It will be completed as soon as possible.
+
+![Ekran görüntüsü 2023-04-10 221722](https://user-images.githubusercontent.com/77413300/230979258-47fcf6c4-59b7-4537-8fb1-44184c2feabb.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
