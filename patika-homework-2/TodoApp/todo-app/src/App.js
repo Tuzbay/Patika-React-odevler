@@ -6,9 +6,9 @@ import "./styles/general.scss";
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Header />
-      <Todo />
+      <Todo />  
       <Footer />
     </div>
   );

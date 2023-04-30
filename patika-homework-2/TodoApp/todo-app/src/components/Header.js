@@ -24,7 +24,10 @@ function Header() {
   let year = date.getFullYear();
   return (
     <div className="header">
-      <h1>Todo App</h1>
+      <h1>Todo List </h1>
+      <br />
+      <h3>...Ece Nur Firdevs Kolukısa...</h3>
+      <h3>...Tunay Uzbay Yelce...</h3>
       <h3>
         {day < 10 ? "0" + day : day} {month} {year}
       </h3>
